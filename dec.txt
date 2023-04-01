@@ -1,0 +1,2 @@
+echo "Using md5 digest for backward compatibility with openSSL 1.0" 
+openssl enc -d -aes-256-cbc -md md5 -in $1.enc
